@@ -3,7 +3,7 @@ function tune(arr) {
     let tunes = [];
     for (let i = 0; i < arr.length; i++) {
         if (arr[i] === 0) {
-            tunes[i] = " _ ";
+            tunes[i] = " - ";
         } else if (arr[i] === normal[i]) {
             tunes[i] = "OK";
         } else if (normal[i] > arr[i] && normal[i] - arr[i] < normal[i]*0.03) {
